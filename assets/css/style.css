@@ -1,0 +1,46 @@
+h1{
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+    /* float: left; */
+}
+h2{
+    color: #4aaaa5;
+}
+
+div .About{
+    float: right;
+    padding-right: 5px;
+}
+
+div .Portfolio{
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+}
+
+div .Contact{
+    padding-left: 5px;
+    float: right;
+}
+
+header{
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    /* line-height: 40px;
+    vertical-align: auto; */
+}
+
+section{
+    /* margin: 10px; */
+    padding: 0px;
+    /* padding: 10px; */
+    border-style: solid;
+    border-color: #dddddd;
+}
