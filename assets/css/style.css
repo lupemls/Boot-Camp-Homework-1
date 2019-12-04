@@ -1,8 +1,12 @@
 body{
     width: 960px;
+    box-sizing: border-box;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     /* font-size: 40px; */
+    background-image: url("../images/leather_1.png");
+    color: #777777;
+
 }
 h1{
     display: inline-block;
@@ -11,7 +15,7 @@ h1{
     padding: 10px;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    }
 h2{
     color: #4aaaa5;
     border-bottom-color: #dddddd;
@@ -19,8 +23,16 @@ h2{
     padding-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-div .About{
+ input{
+    width: 100%;
+    margin: 5px 0;
+ }
+ .Message input{
+    height: 200px;
+    /* resize: both;
+    overflow: auto; */
+ }
+div .About{ 
     float: right;
     padding-right: 5px;
 }
@@ -40,25 +52,30 @@ div .Contact{
     float: right;
 }
 
-header{
+.header{
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
-    position: fixed;
+    /* position: relative; 
     left: 0;
-    top: 0;
+    top: 0; */
     width: 100%;
+    background-color: #ffffff;
+    color: #777777;
+    z-index: 5;
 }
 
 section{
-    position: relative;
-    top: 60px;
+    /* position: relative;
+    top: 60px; */
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 20px;
     border-style: solid;
     border-color: #dddddd;
-    color: #777777;
+    /* color: #777777; */
     line-height: auto;
+    background-color: #ffffff;
+
 }
 
 footer{
