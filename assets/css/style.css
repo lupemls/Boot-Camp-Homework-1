@@ -1,7 +1,10 @@
 /*
 This is the CSS file linked to index.html, contact.html, and portfolio.html. 
 */
-
+a{
+    color: #777777;
+    text-decoration: none;
+}
 .about{ /*The about link at the top of the page
         In all pages*/
     float: right;
