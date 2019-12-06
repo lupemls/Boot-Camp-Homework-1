@@ -1,9 +1,14 @@
-.about{ 
+/*
+This is the CSS file linked to index.html, contact.html, and portfolio.html. 
+*/
+
+.about{ /*The about link at the top of the page
+        In all pages*/
     float: right;
     padding-right: 5px;
 }
 
-body{
+body{ /*In all pages*/
     background-image: url("../images/leather_1.png");
     box-sizing: border-box;
     color: #777777;
@@ -13,23 +18,25 @@ body{
     width: 960px;
 }
 
-button{
+button{ /*In contact.html*/
     background-color: #4aaaa5;
     border: none;
     color: #ffffff;
     padding: 5px 20px;
 }
 
-button:active{
+button:active{ /*In contact.html*/
     background-color: cornflowerblue;
 }
 
-.contact{
+.contact{ /*The contact link at the top of the page
+        In all pages*/
     float: right;
     padding-left: 5px;
 }
 
-footer{
+footer{ /*Styles the footer to be fixed at the bottom of the page
+        In all pages*/
     background-color: #666666;
     border-top: 8px;
     border-style: solid;
@@ -45,7 +52,8 @@ footer{
     width: 100%;    
 }
 
-h1{
+h1{ /*This changes the format for my name in the header 
+        In all pages*/
     background-color: #4aaaa5;
     color: #ffffff;
     display: inline-block;
@@ -54,7 +62,8 @@ h1{
     padding: 10px;
 }
 
-h2{
+h2{ /*The heading of the page we are on 
+        In all pages*/
     border-bottom-color: #dddddd;
     border-bottom-style: solid;
     color: #4aaaa5;
@@ -62,7 +71,8 @@ h2{
     padding-bottom: 15px;
 }
 
-.header{
+.header{ /*Changes the color of the header and stretching it across the screen 
+        In all pages*/
     background-color: #ffffff;
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
@@ -70,25 +80,22 @@ h2{
     width: 100%;
 }
 
-.images{
-    background-color: #fafafa;
-    border-color: #eaeaea;
-    border-style: solid;
-    border-width: 1px;
+.images{ /* Lets the images sit next to eachother in columns with a gap in between 
+        In portfolio.html*/
     display: inline-block;
-    height: 300px;
     margin: 20px;
     position: relative;
-    width: 300px;
 }
 
-input{
+input{ /*Changes the layout of the text box 
+        In contact.html*/
     line-height: 1.5;
     margin: 5px 0;
     width: 100%;
 }
 
-.label {
+.label {/*Changes format for the labels that overlap the images
+        In portfolio.html*/
     background-color: #4aaaa5;
     bottom: 5%;
     box-sizing: border-box;
@@ -99,11 +106,13 @@ input{
     width: 100%;
 }
 
-.message input{
+.message input{ /*changes the height of the message box
+        In contact.html*/
     height: 200px;
 }
 
-.portfolio{
+.portfolio{ /*The portfolio link at the top of the page
+        In all pages*/
     border-left-color: #cccccc;
     border-left-style: solid;
     border-right-color: #cccccc;
@@ -112,14 +121,16 @@ input{
     padding: 0 5px;
 }
 
-.profile-pic{
+.profile-pic{ /*Changes height and width of profile pic, sets it to the left and wraps text around it 
+        In index.html*/
     float: left;
     height: 15%;
     padding-right: 20px ;
     width: 15%;
 }
 
-section{
+section{ /*contains the heading and the content of each page
+        In all pages*/
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
@@ -128,12 +139,9 @@ section{
     padding: 20px;
 }
 
-.thumbnail{
+.thumbnail{ /*sets the max size of the images and crops them to fit
+        In portfolio.html*/
     height: 300px;
     object-fit: cover;
     width: 300px;
-}
-
-.wrapper{
-    margin-bottom: 30px;
 }
