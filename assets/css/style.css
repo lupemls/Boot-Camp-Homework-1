@@ -1,126 +1,139 @@
+.about{ 
+    float: right;
+    padding-right: 5px;
+}
+
 body{
-    width: 960px;
-    box-sizing: border-box;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/leather_1.png");
-    color: #777777;
-    line-height: 1.5;
-}
-h1{
-    display: inline-block;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 10px;
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-h2{
-    color: #4aaaa5;
-    border-bottom-color: #dddddd;
-    border-bottom-style: solid;
-    padding-bottom: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-input{
-    width: 100%;
-    margin: 5px 0;
-    line-height: 1.5;
-}
-.Message input{
-    height: 200px;
-}
-.profile-pic{
-    float: left;
-    width: 15%;
-    height: 15%;
-    padding-right: 20px ;
-}
-.About{ 
-    float: right;
-    padding-right: 5px;
-}
-.wrapper{
-    margin-bottom: 30px;
-}
-.thumbnail{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-}
-.label {
-    color: #ffffff;
-    background-color: #4aaaa5;
     box-sizing: border-box;
-    position: absolute;
-    bottom: 5%;
-    width: 100%;
-    padding: 5px;
-    line-height: 2;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: auto;
+    width: 960px;
 }
-.images{
-    background-color: #fafafa;
-    height: 300px;
-    width: 300px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #eaeaea;
-    display: inline-block;
-    position: relative;
-    margin: 20px;
-}
-.Portfolio{
-    float: right;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-left-style: solid;
-    border-left-color: #cccccc;
-    border-right-style: solid;
-    border-right-color: #cccccc;
-}
+
 button{
     background-color: #4aaaa5;
-    color: #ffffff;
     border: none;
+    color: #ffffff;
     padding: 5px 20px;
 }
 
-.Contact{
-    padding-left: 5px;
+button:active{
+    background-color: cornflowerblue;
+}
+
+.contact{
     float: right;
-}
-
-.header{
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    width: 100%;
-    background-color: #ffffff;
-    color: #777777;
-}
-
-section{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-style: solid;
-    border-color: #dddddd;
-    line-height: auto;
-    background-color: #ffffff;
-
+    padding-left: 5px;
 }
 
 footer{
-    font-size: 10px;
     background-color: #666666;
-    color: #ffffff;
     border-top: 8px;
     border-style: solid;
     border-top-color: #4aaaa5;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
-    position: fixed;
-    left: 0;
     bottom: 0;
+    color: #ffffff;
+    font-size: 10px;
+    left: 0;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    position: fixed;
+    text-align: center;
     width: 100%;    
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 10px;
+}
+
+h2{
+    border-bottom-color: #dddddd;
+    border-bottom-style: solid;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+}
+
+.header{
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    color: #777777;
+    width: 100%;
+}
+
+.images{
+    background-color: #fafafa;
+    border-color: #eaeaea;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    width: 300px;
+}
+
+input{
+    line-height: 1.5;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.label {
+    background-color: #4aaaa5;
+    bottom: 5%;
+    box-sizing: border-box;
+    color: #ffffff;
+    line-height: 2;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.message input{
+    height: 200px;
+}
+
+.portfolio{
+    border-left-color: #cccccc;
+    border-left-style: solid;
+    border-right-color: #cccccc;
+    border-right-style: solid;
+    float: right;
+    padding: 0 5px;
+}
+
+.profile-pic{
+    float: left;
+    height: 15%;
+    padding-right: 20px ;
+    width: 15%;
+}
+
+section{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    line-height: auto;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.thumbnail{
+    height: 300px;
+    object-fit: cover;
+    width: 300px;
+}
+
+.wrapper{
+    margin-bottom: 30px;
 }
